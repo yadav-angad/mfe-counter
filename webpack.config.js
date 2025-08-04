@@ -13,7 +13,7 @@ module.exports = {
     filename: "main.js",
   },
   devServer: {
-    port: 3004,
+    port: 3003,
     liveReload: true,
     historyApiFallback: true,
   },
