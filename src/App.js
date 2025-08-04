@@ -21,7 +21,7 @@ export default function () {
   return (
     <Grid xs={12} sm={4} md={4} lg={4} xl={4} item>
       <Card sx={{ backgroundColor: '#f5f5f5', padding: '10px' }}>
-        <Alert severity="info">{'MFE 2 getting data from Host'}</Alert>
+        <Alert severity="info">{'MFE 1 Counter App, sharing data to Host Application'}</Alert>
         <Box>
           <Button sx={{ backgroundColor: 'DarkGreen', color: 'white', '&:hover': { backgroundColor: 'Green' } }} onClick={incrementCounter}>
             {'Increment'}
